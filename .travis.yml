@@ -3,6 +3,7 @@ node_js:
 - '0.10'
 before_script:
   - npm install -g grunt-cli
+  - echo $TRAVIS_REPO_SLUG
 notifications:
   email:
   - dev@saucelabs.com
